@@ -12,7 +12,8 @@ class JwtGenerator:
     @staticmethod
     def generate_jwt() -> str:
         # Open PEM
-        signing_key = jwt.jwk_from_pem(config.pem)
+        with open(config.pem, 'rb') as pem_file:
+            signing_key = jwt.jwk_from_pem(pem_file.read())
 
         payload = {  # Issued at time
             'iat': int(time.time()), 'exp': int(time.time()) + 600, 'iss': config.app_id}
