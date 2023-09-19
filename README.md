@@ -11,7 +11,7 @@ Built on the robust FastAPI framework, it currently supports to be run as a GitH
 - [Getting Started](#getting-started)
   - [Setup FastAPI server](#setup-fastapi-server)
   - [Expose your webhook using ngrok](#expose-your-webhook-using-ngrok)
-- [Installation](#installation)
+- [Install GitHub App](#setting-up-github-app)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
