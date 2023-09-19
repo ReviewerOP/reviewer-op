@@ -118,4 +118,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-DiceDB is open-sourced under [Apache License, Version 2.0](LICENSE.md).
+DiceDB is open-sourced under [Apache License, Version 2.0](LICENSE).
