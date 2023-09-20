@@ -91,17 +91,22 @@ Built on the robust FastAPI framework, it currently supports to be run as a GitH
 4. Setup GitHub App with these permissions-
    - Pull Request - *READ & WRITE*
    - Contents - *READ ONLY*
-     
-   <img width="727" alt="Screenshot 2023-09-19 at 9 06 56 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/114886b6-7bfc-4c52-b3f2-2e0ee4e8d164">
 
-   <img width="726" alt="Screenshot 2023-09-19 at 9 06 43 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/88257c69-33c7-4f1f-83fc-fbf3ed7d8912">
+    <img width="727" alt="Screenshot 2023-09-19 at 9 06 56 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/5f1e3a50-0ee1-4b41-9a61-f3a65cd0136e">
+  
+    <img width="726" alt="Screenshot 2023-09-19 at 9 06 43 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/64840cb4-05e4-48f4-8cfa-cc60b67ab03f">
+
+
 5. `Subscribe to events` to be checked for *Pull request*
    
-    <img width="391" alt="Screenshot 2023-09-19 at 9 10 41 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/c1662bc2-ac3d-4538-bc74-a623da29038c">
-6. Generate a Private Key from the GitHub App `General` section and save it locally (the path has to be put in `.env` file in python)
+   <img width="766" alt="Screenshot 2023-09-19 at 9 07 08 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/6272b631-5821-458b-9d18-410481008c11">
+
+    
+7. Generate a Private Key from the GitHub App `General` section and save it locally (the path has to be put in `.env` file in python)
    
-   <img width="758" alt="Screenshot 2023-09-19 at 9 15 07 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/738f6dfe-6b3a-42e1-8158-8add5e1a0ed6">
-7. Save the `App Id` given in `General` section of the newly created GitHub app. This will also be put in `.env` file in python
+   <img width="758" alt="Screenshot 2023-09-19 at 9 15 07 PM" src="https://github.com/ReviewerOP/reviewer-op/assets/27367779/5908f65b-c81e-4576-9f08-d02b9335480d">
+
+8. Save the `App Id` given in `General` section of the newly created GitHub app. This will also be put in `.env` file in python
 
 
 
